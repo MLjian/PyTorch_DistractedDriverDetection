@@ -21,9 +21,9 @@ s1.打开visdom后台：python -m visdom.server<br>
 s2.运行训练文件：python train.py<br>
 ## 3 训练过程：<br>
 <div align=left>
-<img width="467" height="300" src="https://github.com/MLjian/PyTorch_DistractedDriverDetection/blob/master/training_show/train_loss.png"/>
+<img width="460" height="300" src="https://github.com/MLjian/PyTorch_DistractedDriverDetection/blob/master/training_show/train_loss.png"/>
 </div>
 <div align=right>
-<img width="467" height="300" src="https://github.com/MLjian/PyTorch_DistractedDriverDetection/blob/master/training_show/vali_acc.png"/>
+<img width="460" height="300" src="https://github.com/MLjian/PyTorch_DistractedDriverDetection/blob/master/training_show/vali_acc.png"/>
 </div><br>
   
