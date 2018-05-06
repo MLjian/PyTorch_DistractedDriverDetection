@@ -1,4 +1,4 @@
->>        
+>>>        
 # PyTorch_DistractedDriverDetection
 ## 1 项目概述：<br>
 ### 1.1 项目来源：<br>
@@ -15,7 +15,7 @@ s1:下载本repository至本地；<br>
 s2:在本目录下，建立文件夹如下,并下载train数据集至data文件夹下：<br>
 >----data<br>
 >>--train<br>
-----trained_models<br>
+>----trained_models<br>
 ### 2.3运行：<br>
 s1.打开visdom后台：python -m visdom.server<br>
 s2.运行训练文件：python train.py<br>
