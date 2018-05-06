@@ -1,12 +1,11 @@
->>>        
+      
 # PyTorch_DistractedDriverDetection
 ## 1 项目概述：<br>
 ### 1.1 项目来源：<br>
 kaggle中的【State Farm Distracted Driver Detection】比赛的实现。https://www.kaggle.com/c/state-farm-distracted-driver-detection<br>
 ### 1.2 问题概述:<br>
 对一张关于驾驶员行为的图片进行分类，共10类：安全驾驶/左手打字/右手打电话/左右打电话/...<br>
-<div align=center>
-<img width="467" height="300" src="https://github.com/MLjian/PyTorch_DistractedDriverDetection/blob/master/training_show/img_271.jpg"/>
+<div align=center><img width="467" height="300" src="https://github.com/MLjian/PyTorch_DistractedDriverDetection/blob/master/training_show/img_271.jpg"/>
 </div><br>
 ### 1.3 问题解决思路：<br>
 采用resnet18进行finetune
