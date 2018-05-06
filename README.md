@@ -20,8 +20,10 @@ s2:在本目录下，建立文件夹如下,并下载train数据集至data文件�
 s1.打开visdom后台：python -m visdom.server<br>
 s2.运行训练文件：python train.py<br>
 ## 3 训练过程：<br>
-<div align=center>
+<div align=left>
 <img width="467" height="300" src="https://github.com/MLjian/PyTorch_DistractedDriverDetection/blob/master/training_show/train_loss.png"/>
+</div><br>
+<div align=right>
 <img width="467" height="300" src="https://github.com/MLjian/PyTorch_DistractedDriverDetection/blob/master/training_show/vali_acc.png"/>
 </div><br>
   
