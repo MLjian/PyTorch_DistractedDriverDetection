@@ -13,9 +13,9 @@ windows/python3.5/pytorch0.4/visdom<br>
 ### 2.2 运行前的准备：<br>
 s1:下载本repository至本地；<br>
 s2:在本目录下，建立文件夹如下,并下载train数据集至data文件夹下：<br>
->----data<br>
->>--train<br>
->----trained_models<br>
+>>----data<br>
+--train<br>
+----trained_models<br>
 ### 2.3运行：<br>
 s1.打开visdom后台：python -m visdom.server<br>
 s2.运行训练文件：python train.py<br>
