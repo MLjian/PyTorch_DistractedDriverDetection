@@ -22,7 +22,7 @@ s2.运行训练文件：python train.py<br>
 ## 3 训练过程：<br>
 <div align=left>
 <img width="467" height="300" src="https://github.com/MLjian/PyTorch_DistractedDriverDetection/blob/master/training_show/train_loss.png"/>
-</div><br>
+</div>
 <div align=right>
 <img width="467" height="300" src="https://github.com/MLjian/PyTorch_DistractedDriverDetection/blob/master/training_show/vali_acc.png"/>
 </div><br>
