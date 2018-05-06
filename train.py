@@ -137,6 +137,7 @@ if __name__ == '__main__':
     for epoch in range(MAX_EPOCHS):
         for i, (data_x, label) in enumerate(train_dataloader):
             j += 1
+            model.zero_grad()
             #pdb.set_trace()
             input = data_x.requires_grad_(True)
             label = label.requires_grad_(True)
