@@ -7,7 +7,7 @@ kaggle中的【State Farm Distracted Driver Detection】比赛的实现。https:
 对一张关于驾驶员行为的图片进行分类，共10类：安全驾驶/左手打字/右手打电话/左右打电话/...<br>
 !["example picture"](https://github.com/MLjian/PyTorch_DistractedDriverDetection/blob/master/training_show/img_271.jpg)<br>
 ### 1.3 问题解决思路：<br>
-采用resnet18进行finetune
+采用resnet34进行finetune
 ### 1.4 数据集下载地址：<br>
 https://pan.baidu.com/s/1l2RkXYOAdxuL_jiKWJm1cQ<br>
 ## 2 程序运行相关：<br>
