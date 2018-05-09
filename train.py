@@ -68,8 +68,7 @@ class DriverDataset(data.Dataset):
         return data, label
     def __len__(self):
         return len(self.imgs)
-    
-"""
+    """
 ===============================================================================
 1 定义网络模型
 ===============================================================================
@@ -101,8 +100,8 @@ def val(model, dataloader, criterion):
     model.eval()
     acc_sum = 0
     for ii, (input, label) in enumerate(dataloader):
-        val_input = input.requires_grad_(True)
-        val_label = label.requires_grad_(True)
+        val_input = input
+        val_label = label
         if use_gpu:
             val_input = val_input.cuda()
             val_label = val_label.cuda()
@@ -139,8 +138,8 @@ if __name__ == '__main__':
             j += 1
             model.zero_grad()
             #pdb.set_trace()
-            input = data_x.requires_grad_(True)
-            label = label.requires_grad_(True)
+            input = data_x
+            label = label
             if use_gpu:
                 input = input.cuda()
                 label = label.cuda()
