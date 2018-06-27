@@ -134,9 +134,9 @@ if __name__ == '__main__':
     loss_print = []
     j = 0
     for epoch in range(MAX_EPOCHS):
-        for i, (data_x, label) in enumerate(train_dataloader):
+        for (data_x, label) in train_dataloader:
             j += 1
-            model.zero_grad()
+            optimizer.zero_grad()
             #pdb.set_trace()
             input = data_x
             label = label
@@ -151,11 +151,11 @@ if __name__ == '__main__':
             loss_print.append(loss)
             
             '''可视化训练loss'''
-            if i % frequency_print == 0:
+            if j % frequency_print == 0:
                 loss_mean = t.mean(t.Tensor(loss_print))
                 loss_print = []
                 print('train_loss: %f'%loss_mean)
-                vis.line(X= t.Tensor([j]), Y=t.Tensor([loss_mean]), win='train loss', update='append' if j != 1 else None, opts=dict(title='train_loss', x_label='batch', y_label='loss'))
+                vis.line(X= t.Tensor([j]), Y=t.Tensor([loss_mean]), win='train loss', update='append' if j != frequency_print else None, opts=dict(title='train_loss', x_label='batch', y_label='loss'))
                 
         '''可视化模型在验证集上的准确率'''
         acc_vali = val(model, vali_dataloader, criterion)
