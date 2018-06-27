@@ -3,7 +3,7 @@
 Created on Sat Apr 28 14:28:51 2018
 @brief : 1）项目：kaggle平台上的驾驶员注意力状态检测【State Farm Distracted Driver Detection】，详见https://www.kaggle.com/c/state-farm-distracted-driver-detection
          2）项目介绍:需建立一个模型，对一张图片进行分类。共有10类：安全驾驶，右手打字，右手打电话...
-         3）本部分代码主要是根据竞赛所提供的imgs.zip中train数据集，训练一个finetune的renet18的模型；
+         3）本部分代码主要是根据竞赛所提供的imgs.zip中train数据集，训练一个finetune的renet34的模型；
 @environment: windows pytorch0.4 python3.5
 @author: jian
 """
